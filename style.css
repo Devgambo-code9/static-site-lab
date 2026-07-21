@@ -1,15 +1,36 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>AZ-900 Lab 1 - Deployed</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="container">
-        <h1>Updated for AZ-900 Certification!</h1>
-        <p>Deployed: April 2026</p>
-        <p>This proves I can deploy and update a live static website using Azure concepts.</p>
-        <span class="badge">AZ-900 Skills: Storage + Static Web Hosting</span>
-    </div>
-</body>
-</html>
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #0078D4, #50E6FF);
+    color: white;
+    text-align: center;
+    padding: 50px;
+    margin: 0;
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.3);
+    padding: 40px;
+    border-radius: 15px;
+    max-width: 600px;
+    margin: auto;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+.badge {
+    background: #FFB900;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 20px;
+
